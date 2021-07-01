@@ -30,6 +30,6 @@ class MarkersController < ApplicationController
     private
 
     def marker_params
-        params.permit(:user_id, :attraction_id, :visited, :user_rating, :urgency)
+        params.permit(:user_id, :visited, :user_rating, :urgency, :category, :latitude, :longitude, :name)
     end
 end

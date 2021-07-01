@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   resources :trips, only: [:index, :show, :create, :destroy, :update]
   resources :users, only: [:index, :show, :create]
   resources :markers, only: [:index, :show, :create, :destroy, :update]
-  resources :attractions, only: [:index, :show, :create, :destroy]
 
   post '/signup', to: 'users#create'
   post '/login', to: 'users#login'
