@@ -85,7 +85,8 @@ a10 = Attraction.create({
 puts "Wooh-Wee, attractions seeded"
 
 u1 = User.create({
-    username: "Sean"
+    username: "Sean",
+    password: "Sean"
 })
 
 u2 = User.create({

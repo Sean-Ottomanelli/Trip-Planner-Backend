@@ -25,6 +25,10 @@ class UsersController < ApplicationController
             render json: { message: 'Invalid username or password' }, status: :unauthorized
         end
     end
+
+    def find_user_id
+        render json: current_user
+    end
     
     private
     
