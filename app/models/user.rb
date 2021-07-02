@@ -1,5 +1,6 @@
 class User < ApplicationRecord
     has_many :markers
+    has_many :destinations, through: :trips
     has_many :trips
     
     has_secure_password
