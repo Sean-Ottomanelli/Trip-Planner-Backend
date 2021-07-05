@@ -4,6 +4,7 @@ class CreateTrips < ActiveRecord::Migration[6.1]
       t.integer :user_id
       t.string :name
       t.boolean :completed
+      t.text :description
 
       t.timestamps
     end

@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(version: 2021_06_29_205029) do
     t.integer "user_id"
     t.string "name"
     t.boolean "completed"
+    t.text "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

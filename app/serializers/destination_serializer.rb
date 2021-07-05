@@ -30,6 +30,6 @@ class DestinationSerializer < ActiveModel::Serializer
   # end
 
   belongs_to :marker
-  belongs_to :trip
+  # belongs_to :trip
 
 end
