@@ -1,5 +1,5 @@
 class DestinationSerializer < ActiveModel::Serializer
-  attributes :id, :trip_id, :marker_id
+  attributes :id, :trip_id, :marker_id, :marker
 
   # def marker_visited
   #   self.object.marker.visited
