@@ -42,7 +42,7 @@ m2 = Marker.create({
     user_id: u1.id,
     visited: true,
     user_rating: 5,
-    name: "Shake Shack",
+    name: "Shake Shack Upper West Side",
     category: "Restaurant",
     image: "https://d24wuq6o951i2g.cloudfront.net/img/events/id/315/3154728/assets/546.uws-shake-shack.png",
     latitude: 40.78083667445886,
