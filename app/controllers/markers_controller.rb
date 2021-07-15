@@ -11,8 +11,12 @@ class MarkersController < ApplicationController
 
     def create
         marker = Marker.new(marker_params)
-        marker.save
-        render json: marker
+        if marker.valid?
+            marker.save       
+            render json: marker
+        else
+            render json: {errors: "Please provide a name and a category to place a marker."}, status: :unprocessable_entity
+        end
     end
 
     def destroy
@@ -30,6 +34,6 @@ class MarkersController < ApplicationController
     private
 
     def marker_params
-        params.permit(:user_id, :visited, :user_rating, :urgency, :category, :latitude, :longitude, :name)
+        params.permit(:user_id, :visited, :user_rating, :urgency, :category, :latitude, :longitude, :name, :image)
     end
 end

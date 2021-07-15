@@ -30,21 +30,23 @@ m1 = Marker.create({
     user_id: u1.id,
     visited: true,
     user_rating: 5,
-    name: "Sean's Apartment",
-    category: "Attraction",
+    name: "Home",
+    category: "Lodging",
+    image: "https://cdn-img-feed.streeteasy.com/nyc/image/66/367131766.jpg",
     latitude: 40.781039368245025,
     longitude: -73.97700772696594,
-    description: "this is a place"
+    description: "My Apartment"
 })
 
 m2 = Marker.create({
     user_id: u1.id,
-    visited: false,
-    urgency: 3,
+    visited: true,
+    user_rating: 5,
     name: "Shake Shack",
     category: "Restaurant",
+    image: "https://d24wuq6o951i2g.cloudfront.net/img/events/id/315/3154728/assets/546.uws-shake-shack.png",
     latitude: 40.78083667445886,
-    longitude: -73.97642646934601
+    longitude: -73.97642646934601,
 })
 
 m3 = Marker.create({
@@ -53,16 +55,18 @@ m3 = Marker.create({
     user_rating: 4,
     name: "American Museum of Natural History",
     category: "Attraction",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/ec/USA-NYC-American_Museum_of_Natural_History.JPG",
     latitude: 40.78112785148305,
     longitude: -73.97397597719291
 })
 
 m4 = Marker.create({
     user_id: u1.id,
-    visited: true,
-    user_rating: 5,
+    visited: false,
+    urgency: 1,
     name: "Freedom Tower",
     category: "Attraction",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/One_world_trade_center_august_2019.jpg/1200px-One_world_trade_center_august_2019.jpg",
     latitude: 40.712917166364655,
     longitude: -74.01287097602595
 })
@@ -70,9 +74,10 @@ m4 = Marker.create({
 m5 = Marker.create({
     user_id: u1.id,
     visited: true,
-    user_rating: 5,
+    user_rating: 2,
     name: "LMCC's Arts Center at Governor's Island",
     category: "Attraction",
+    image: "https://cdn.businessyab.com/assets/uploads/ceeb727bde7ed7791c296a5be62fb0ef_-united-states-new-york-new-york-county-manhattan-andes-road-110-lmccs-arts-center-at-governors-island.jpg",
     latitude: 40.69255380369747,
     longitude: -74.01571330476163
 })
@@ -83,6 +88,7 @@ m6 = Marker.create({
     user_rating: 1,
     name: "The Bindery",
     category: "Attraction",
+    image: "https://sec.report/Document/0001035443-19-000041/q418bindery.jpg",
     latitude: 40.74180695062785,
     longitude: -73.93716540337736
 })
@@ -91,10 +97,11 @@ m7 = Marker.create({
     user_id: u1.id,
     visited: false,
     urgency: 4,
-    name: "Statue of Liberty Vantage Point",
-    category: "Vista",
-    latitude: 40.707946180737316,
-    longitude: -74.0111360408852
+    name: "Statue of Liberty",
+    image: "https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY1MTc1MTk3ODI0MDAxNjA5/topic-statue-of-liberty-gettyimages-960610006-promo.jpg",
+    category: "Attraction",
+    latitude: 40.690588321357694,
+    longitude: -74.04566443392922
 })
 
 m8 = Marker.create({

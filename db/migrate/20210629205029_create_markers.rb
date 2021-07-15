@@ -11,6 +11,7 @@ class CreateMarkers < ActiveRecord::Migration[6.1]
       t.float :longitude
       t.text :links
       t.text :description
+      t.string :image
 
       t.timestamps
     end

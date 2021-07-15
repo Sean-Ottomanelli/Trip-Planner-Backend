@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 2021_06_29_205029) do
     t.float "longitude"
     t.text "links"
     t.text "description"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
