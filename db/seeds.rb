@@ -125,7 +125,7 @@ m9 = Marker.create({
     latitude: 20.751964847936655,
     longitude: -156.22941200268403,
     category: "Hike",
-    image: "https://lh3.googleusercontent.com/proxy/JxY5MNluZkf1o-8tamPZWs9T_oiPdTiYq_FgMChBjl3iuVS9mZC6U9EZmnV3DibdVW5st4T4qOFz2Fi-b4kUzCZFBu__vA_aBlXL0DwtUbqdwRzqD4qIYA"
+    image: "https://haleakalacrater.com/wp-content/uploads/2018/09/haleakala-hiking.jpg"
 })
 
 m10 = Marker.create({
